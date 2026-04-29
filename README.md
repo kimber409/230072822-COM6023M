@@ -82,4 +82,4 @@ npm run build --prefix WebClientApplication
 
 ## AI Use Statement
 
-I used ChatGPT to help brainstorm the project structure, API design, and documentation template. I used Codex to assist with generating and debugging code. I reviewed, tested, and adapted the generated output myself.
+I used ChatGPT to help brainstorm the project structure and API design.
