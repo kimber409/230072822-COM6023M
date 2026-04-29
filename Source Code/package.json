@@ -1,0 +1,15 @@
+{
+  "name": "recruitflow-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "COM6023M Advanced Web Development portfolio project containing a REST API and web client.",
+  "scripts": {
+    "install:all": "npm install --prefix RestAPI && npm install --prefix WebClientApplication",
+    "dev:api": "npm run dev --prefix RestAPI",
+    "dev:client": "npm run dev --prefix WebClientApplication",
+    "test": "npm test --prefix RestAPI && npm run build --prefix WebClientApplication"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
